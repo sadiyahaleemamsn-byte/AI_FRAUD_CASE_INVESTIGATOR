@@ -5,7 +5,7 @@ import streamlit as st
 
 from investigator import investigate_transaction
 from case_generator import generate_case, case_to_json
-from case_loader import load_case
+
 
 
 # -----------------------------
