@@ -1,0 +1,9 @@
+transaction_id,customer_id,amount,device_id,region
+3558054,C13171,55.68,D-f79e5d190de9952f8507,284
+100001,C13171,35.00,D-old-device,284
+100002,C13171,40.00,D-old-device,284
+100003,C13171,42.00,D-old-device,284
+100004,C13171,38.00,D-old-device,284
+100005,C13171,45.00,D-old-device,284
+200001,C20001,500.00,D-new-001,999
+200002,C20001,20.00,D-old-002,284
