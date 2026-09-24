@@ -1,10 +1,9 @@
 import json
-
 import pandas as pd
 import streamlit as st
 
 from investigator import investigate_transaction
-from case_generator import generate_case, case_to_json
+from case_generator import generate_case, case_to_json,load_case
 
 
 
@@ -417,15 +416,14 @@ if st.button("Load Reference Case"):
     reference_case = load_case(case_id)
 
     if reference_case is None:
-
-        st.error(
-            "Case file not found."
+       st.error(
+            "Reference case not found."
         )
 
     else:
 
         st.success(
-            f"{case_id} loaded successfully."
+            "Reference case loaded successfully."
         )
 
         st.json(reference_case)            
